@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(57deg, rgba(0, 0, 0, 0.75), rgba(8, 3, 0, 0.5)), url('https://assets.nflxext.com/ffe/siteui/vlv3/8f12b4f0-a894-4d5b-9c36-5ba391c63fbe/44355e66-dbf8-4dd8-ba6b-8e9e32ec6abd/IN-en-20230320-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+
+.main_nav {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: transparent;
+}
+
+.select_tag {
+  width: 90px;
+  text-align: center;
+  outline: none;
+  border: 1px solid red;
+  padding: 0px 2px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border-radius: 3px;
+}
+
+.nav_btn {
+  width: 100px;
+  background-color: rgb(229, 9, 20);
+}
+
+/* -----------------------------header */
+
+.header_home {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header_home h3 {
+  font-size: 22px;
+  font-weight: 500;
+  padding: 10px 0px;
+}
+
+.header_home h4 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.header_form {
+  width: 100%;
+ 
+}
+
+.header_form input {
+  padding: 10px 15px;
+  width: 25%;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  margin: 10px 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header_form .header_btn {
+  width: 170px;
+  font-size: 22px;
+  background-color: rgb(229, 9, 20);
+  margin: 15px 0;
+}
+
+// ------------------------- Login 
+.login_form{
+  position: relative;
+  top: 0;
+  height: 100vh;
+  background: linear-gradient(57deg, rgba(0, 0, 0, 0.75), rgba(8, 3, 0, 0.5)), url('https://assets.nflxext.com/ffe/siteui/vlv3/8f12b4f0-a894-4d5b-9c36-5ba391c63fbe/44355e66-dbf8-4dd8-ba6b-8e9e32ec6abd/IN-en-20230320-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+
+}
+.login {
+  width: 100%;
+  height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_main {
+  margin: auto auto;
+  width: 350px;
+  height: 62vh;
+  background-color: black;
+  text-align: center;
+  padding: 20px 0px;
+  margin: 0px auto;
+  color: white;
+}
+
+.inp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.inp input {
+  width: 80%;
+  margin: 10px 0px;
+  padding: 6px 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  outline: none;
+}
+
+.login_btn {
+  width: 80%;
+  padding: 8px 10px;
+  margin: 10px auto;
+  font-size: 18px;
+  font-family: Poppins;
+  background-color: rgb(229, 9, 20);
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.login_main .signup {
+  padding: 10px 0px;
+  color: rgb(56, 56, 56);
+}
+
+.login_main .signup a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.login_check {
+  width: 80%;
+  margin: 0px auto;
+  text-align: left;
+  color: white
+}
+
+.user-exits p {
+  font-size: 15px;
+  color: aqua;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
+// --------------------------------------Banner
+.banner_main {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+}
+
+.banner {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.75), rgba(8, 3, 0, 0.3)), url('https://e1.pxfuel.com/desktop-wallpaper/772/655/desktop-wallpaper-ginny-and-georgia-mang-ginny-and-georgia.jpg');
+  color: white;
+}
+
+.banner_content {
+  padding: 10px 40px;
+}
+
+.banner_title {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.banner_btns {
+  display: flex;
+  gap: 20px;
+}
+
+.banner_btn {
+  background-color: white;
+  text-align: center;
+  font-size: 18px;
+  width: 100px;
+  color: black;
+  font-weight: 500;
+  padding: 5px 10px;
+  margin: 20px 10px;
+}
+
+.banner_desc {
+  width: 50%;
+}
+
+// --------------------------
+
+.list{
+  background-color: black;
+  >.row{
+    flex-direction: column;
+    margin: 0;
+  }
+  .title{
+    margin: 30px;
+    margin-bottom: 0;
+  }
+  .row__posters {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px 0 20px 0;
+  }
+  
+  .row__posters::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .row__poster {
+    margin-right: 10px;
+    max-height: 100px;
+    object-fit: contain;
+    opacity: 0.8;
+    transition: transform 0.45s;
+    width: 100%;
+  }
+  
+  .row__poster:hover {
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.08);
+  }
+  
+  .row__posterLarge {
+    max-height: 300px;
+    transition: all 0.5s;
+  }
+  
+  .row__posterLarge:hover {
+    opacity: 1;
+    transform: scale(1.09);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .banner_title {
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .banner_desc {
+    width: 100%;
+  }
+}
